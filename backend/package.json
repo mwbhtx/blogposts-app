@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "jest": "^27.5.1",
+    "mongodb": "^4.3.1",
+    "supertest": "^6.2.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node start.js"
+  }
+}

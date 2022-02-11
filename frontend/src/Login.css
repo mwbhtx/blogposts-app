@@ -1,0 +1,48 @@
+:root {
+    --var-accent-color: red;
+}
+
+#loginForm {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: 0;
+    left: 0;
+    top: 50%;
+    margin: 0 auto;
+    margin-top: -150px;
+    max-width: 200px;
+    gap: 5px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-bottom: 2px solid var(--var-accent-color);
+}
+
+#loginForm * {
+    margin: 0;
+    padding: 0;
+}
+
+#loginForm label {
+    color: var(--var-accent-color);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#loginForm input {
+    outline: none;
+    border: none;
+    height: 40px;
+}
+
+#loginForm [type='password'], #loginForm [type='text'] {
+    padding-left: 10px;
+    font: small;
+    margin-bottom: 15px;
+}
+
+#loginForm [type='submit'] {
+    font: small;
+    color: 2px solid var(--var-accent-color);
+}
